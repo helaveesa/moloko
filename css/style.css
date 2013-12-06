@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0; padding:0; background-color:#FFFFFF;}
+
+H1 {font-size:16px; COLOR: #000000; FONT-FAMILY: Arial}
+P, TD, TR, TABLE, UL, LI {font-size:11px; COLOR: #000000; FONT-FAMILY: Arial}
+B, STRONG{font-size:11px; font-weight:bold; COLOR: #000000; FONT-FAMILY: Arial}
+
+A:visited, A:link, A:active {COLOR: #0B7219; TEXT-DECORATION: none; FONT-FAMILY: Arial}
+A:hover {COLOR: #0B7219; TEXT-DECORATION: underline; FONT-FAMILY: Arial}
