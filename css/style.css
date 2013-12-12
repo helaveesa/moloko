@@ -7,9 +7,15 @@ body {
 	background-color: #CCF;
 }
 
+.menu:hover {
+	  text-decoration: underline; 
+	  color:#F3F; 
+}
+
+
 H1 {
 	font-size:16px; 
-	COLOR: #606;
+	color:#90C;
 	FONT-FAMILY:Arial, Gadget, sans-serif;
 	font-style:italic;
 }
