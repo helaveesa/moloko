@@ -33,14 +33,14 @@ require("config.php");
             <img src="img/menu-7.png" border="0"></td>
         </div>
 			<td width="673" align="left" valign="top">
-			<table border="0" width="100%" cellspacing="10" cellpadding="10">
+			<table border="0" width="119%" cellspacing="10" cellpadding="10">
 		<tr>
             <td align="left" valign="top" width="217">
             <a href="/pages/allpages.php"><img src="img/push.jpg" border="0"></a><br>
             <a href="/pages/moto.php"><img src="img/next.jpg" border="0"><br>
             <a href="/pages/girls.php"><img src="img/motogirl.jpg" border="0"></a></td>
             
-            <td align="left" valign="top">            
+            <td width="268" align="left" valign="top">            
             <?php
 		if($_SESSION[id])
 		{
@@ -60,9 +60,9 @@ require("config.php");
 		?>
 
                 <h1>Мотоцикл и девушка: совместимо?</h1>
-                <div>На сегодняшний день</div>
+                <div>Мотоциклы для женщин. На что обратить внимание при выборе?Главное, чтоб мотоцикл имел низкий центр тяжести. Это можно сделать, если сделать сам байк пониже, установить низкие амортизаторы (снижающие части). Для некоторых достаточно лишь сделать пониже подвеску заднего колеса. Можно и понизить вилку переднюю.</div>
                 <div>&nbsp;</div>
-                <div>Наше предприятие</div>
+                <div>Если у вас рост маленький, то и руки не могут быть длинными. В таком случае, вам будет довольно трудно дотягиваться до руля и, вы будете постоянно ехать при вытянутых руках (что не допустимо и не удобно). Нужно, для удобства, чтобы руки были хотя бы немного согнуты в локтях. Приблизьте руль к себе, поменяйте его. Высокий руль мотоцикла – удобство для вас на поворотах, при разворотах. Комфортная поездка зависит от вашей правильной посадке.</div>
                 <div>&nbsp;</div>
                 <div>В 2000 году были <a href="#">газ</a></div></td>
 		</tr>
