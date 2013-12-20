@@ -57,6 +57,24 @@ require("config.php");
             <a href="/index4.php?id=6">
             <img src="img/motogirl.jpg" border="0"></a></td>
             <td align="left" valign="top">
+            
+            <?php
+		if($_SESSION[id])
+		{
+			echo "Приветствуем! <a href='?quit=ok'>выход</a>";	
+		} else
+		{
+			?>
+			<form method="post">
+				E-Mail: <input type="text" name="email"><br>
+				Пароль: <input type="password" name="pwd"><br>
+				<input type="submit" name="ok_auth" value="Вход"><br>
+				<a href="reg.php">Регистрация</a>
+				<?php echo $error_auth; ?>
+			</form>
+			<?php
+		}
+		?>
 
                 <h1>О компании</h1>
                 <div>На сегодняшний день девушки перестали быть &quot;украшением&quot; мотоцикла, перестали мыть &quot;стального коня&quot; на публике...</div>

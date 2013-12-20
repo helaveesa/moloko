@@ -14,33 +14,56 @@ require("config.php");
 	<div align="center">
 		<table cellpadding="0" cellspacing="0" border="0" width="945">
 		<tr>
-        	<td colspan="2" align="left" valign="top" style="height:92px;">
-            <a href="#"><img src="img/logo.jpg" border="0"></a></td>
+        	<td colspan="2" align="left" valign="top" style="height:92px;"><a href="/index.php?id=1"><img src="img/logomoloko.jpg" border="0"></a></td>
         </tr>
 		<tr>
             <td style="height:352px;" colspan="2" align="center" valign="top">
-            <object style="width:945px; height:352px"  width="945" height="352" border="0"><a href="#"><img src="img/banner.jpg"></a></object></td>
+            <img src="img/banner2.jpg" width="961" height="359" border="0"></td>
 		</tr>
-        <div class="menu">
 		<tr>
             <td style="width:272px; margin-top:0px; padding-top:0px;" align="left" valign="top">
-            <a href="/pages/main.php"><img src="img/menu-1.jpg" border="0" name="T1"></a><br>
-            <a href="/pages/about.php"><img src="img/menu-2.jpg" border="0" name="T2"></a><br>
-            <a href="/pages/products.php"><img src="img/menu-3.jpg" border="0" name="T3"></a><br>
-            <a href="/pages/price.php"><img src="img/menu-4.jpg" border="0" name="T4"></a><br>
-            <a href="/pages/comments.php"><img src="img/menu-5.jpg" border="0" name="T5"></a><br>
-            <a href="/pages/contacts.php"><img src="img/menu-6.jpg" border="0" name="T6"></a><br>
-            <img src="img/menu-7.png" border="0"></td>
-        </div>
+            <a href="/index.php?id=1"
+            onMouseOut="ImageSwap('T1','img/menu-1.jpg')"
+            onMouseOver="ImageSwap('T1','img/menu-1_.jpg')"
+            onMouseDown="ImageSwap('T1','img/menu-1_.jpg'')"><img src="img/menu-1.jpg" name="T1" width="288" height="36" border="0"></a><br>
+            <a href="/index2.php?id=2"
+            onMouseOut="ImageSwap('T2','img/menu-2.jpg')"
+            onMouseOver="ImageSwap('T2','img/menu-2_.jpg')"
+            onMouseDown="ImageSwap('T2','img/menu-2_.jpg'')"><img src="img/menu-2.jpg" name="T2" width="288" height="36" border="0"></a><br>
+            <a href="/index3.php?id=8"
+            onMouseOut="ImageSwap('T3','img/menu-3.jpg')"
+            onMouseOver="ImageSwap('T3','img/menu-3_.jpg')"
+            onMouseDown="ImageSwap('T3','img/menu-3_.jpg'')"><img src="img/menu-3.jpg" name="T3" width="288" height="36" border="0"></a><br>
+            <a href="/index4.php?id=15"
+            onMouseOut="ImageSwap('T4','img/menu-4.jpg')"
+            onMouseOver="ImageSwap('T4','img/menu-4_.jpg')"
+            onMouseDown="ImageSwap('T4','img/menu-4_.jpg'')"><img src="img/menu-4.jpg" name="T4" width="288" height="36" border="0"></a><br>
+            <a href="/forma.php"
+            onMouseOut="ImageSwap('T5','img/menu-5.jpg')"
+            onMouseOver="ImageSwap('T5','img/menu-5_.jpg')"
+            onMouseDown="ImageSwap('T5','img/menu-5_.jpg'')"><img src="img/menu-5.jpg" name="T5" width="288" height="36" border="0"></a><br>
+            <a href="/index4.php?id=17"
+            onMouseOut="ImageSwap('T6','img/menu-6.jpg')"
+            onMouseOver="ImageSwap('T6','img/menu-6_.jpg')"
+            onMouseDown="ImageSwap('T6','img/menu-6_.jpg'')"><img src="img/menu-6.jpg" name="T6" width="288" height="36" border="0"></a><br>
+            <a href="/index4.php?id=17"
+            onMouseOut="ImageSwap('T6','img/menu-61.jpg')"
+            onMouseOver="ImageSwap('T6','img/menu-61_.jpg')"
+            onMouseDown="ImageSwap('T6','img/menu-61_.jpg'')"><img src="img/menu-61.jpg" name="T6" width="288" height="36" border="0"></a><br>
+            <img src="img/menu-7.jpg" width="288" height="36" border="0"></td>
 			<td width="673" align="left" valign="top">
-			<table border="0" width="119%" cellspacing="10" cellpadding="10">
+			<table border="0" width="100%" cellspacing="10" cellpadding="10">
 		<tr>
             <td align="left" valign="top" width="217">
-            <a href="/pages/allpages.php"><img src="img/push.jpg" border="0"></a><br>
-            <a href="/pages/moto.php"><img src="img/next.jpg" border="0"><br>
-            <a href="/pages/girls.php"><img src="img/motogirl.jpg" border="0"></a></td>
+            <a href="/index3.php?id=8">
+            <img src="img/push.jpg" width="239" border="0"></a><br>
+            <img src="img/next.jpg" width="239" border="0"><br>
+            <img src="img/next2.jpg" width="239" border="0"><br>
+            <img src="img/next3.jpg" width="239" border="0"><br>
+            <a href="/golosovanie/golos.php">
+            <img src="img/ocenka.jpg" width="239" border="0"></a></td>
+            <td align="left" valign="top">
             
-            <td width="268" align="left" valign="top">            
             <?php
 		if($_SESSION[id])
 		{
@@ -52,28 +75,32 @@ require("config.php");
 				E-Mail: <input type="text" name="email"><br>
 				Пароль: <input type="password" name="pwd"><br>
 				<input type="submit" name="ok_auth" value="Вход"><br>
-				<a href="reg.php">Регистрация</a>
+			<a href="reg.php"><img src="img/reg.jpg" alt="Регистрация" width="239" border="0"></a><br>
 				<?php echo $error_auth; ?>
 			</form>
 			<?php
 		}
 		?>
 
-                <h1>Мотоцикл и девушка: совместимо?</h1>
-                <div>Мотоциклы для женщин. На что обратить внимание при выборе?Главное, чтоб мотоцикл имел низкий центр тяжести. Это можно сделать, если сделать сам байк пониже, установить низкие амортизаторы (снижающие части). Для некоторых достаточно лишь сделать пониже подвеску заднего колеса. Можно и понизить вилку переднюю.</div>
+                <h1><a href="about.php"><img src="img/about.jpg" alt="Актуальное" width="382" height="123" border="0"></a></h1>
+                <div>На сегодняшний день девушки перестали быть &quot;украшением&quot; мотоцикла, перестали мыть &quot;стального коня&quot; на публике...</div>
                 <div>&nbsp;</div>
-                <div>Если у вас рост маленький, то и руки не могут быть длинными. В таком случае, вам будет довольно трудно дотягиваться до руля и, вы будете постоянно ехать при вытянутых руках (что не допустимо и не удобно). Нужно, для удобства, чтобы руки были хотя бы немного согнуты в локтях. Приблизьте руль к себе, поменяйте его. Высокий руль мотоцикла – удобство для вас на поворотах, при разворотах. Комфортная поездка зависит от вашей правильной посадке.</div>
+                <div>Девушки получили категорию А и сели за руль боевого друга и товарища. Надо сказать, они управляются с ним не хуже мужчин...</div>
                 <div>&nbsp;</div>
-                <div>В 2000 году были <a href="#">газ</a></div></td>
+                <div>В экспоцентре &laquo;Гарден Сити&raquo;<a href="/index2.php?id=2"></a> ежегодно проводятся мотовыставки: мотосалон IMIS. Тех, кто интересуется мотоциклами всех моделей и назначений, порадуют обширной программой: от пресс-конференции 30 байкерских клубов страны и выставки новых тюнингованных мотоциклов до фристайл соревнований и стантрайдинга на мотоциклах спортивных. Посмотреть на это красочное и неординарное зрелище будет интересно даже тем, у кого нет собственного железного коня.</div></td>
 		</tr>
-	</table>
+		<tr>
+		  <td align="left" valign="top">&nbsp;</td>
+		  <td align="left" valign="top">&nbsp;</td>
+		  </tr>
+	        </table>
   </td>
  </tr>
 
 	<tr>
         <td width="272" align="left" valign="top" height="81">
-        <a href="/pages/remzona.php">
-        <img src="img/kik.jpg" border="0"></a></td>
+        <a href="/index.php?id=1">
+<img src="img/reklama.jpg" width="289" height="87" border="0"></a></td>
         <td width="673" align="left" valign="top" height="81">
   <table border="0" width="100%" cellspacing="10" cellpadding="10">
 	<tr>
