@@ -18,39 +18,48 @@ require("config.php");
         </tr>
 		<tr>
             <td style="height:352px;" colspan="2" align="center" valign="top">
-            <img src="img/banner2.jpg" width="961" height="359" border="0"></td>
+            <img src="img/banner2.jpg" width="961" height="359" border="7px"></td>
 		</tr>
 		<tr>
             <td style="width:272px; margin-top:0px; padding-top:0px;" align="left" valign="top">
             <a href="/index.php?id=1"
             onMouseOut="ImageSwap('T1','img/menu-1.jpg')"
             onMouseOver="ImageSwap('T1','img/menu-1_.jpg')"
-            onMouseDown="ImageSwap('T1','img/menu-1_.jpg'')"><img src="img/menu-1.jpg" name="T1" width="288" height="36" border="0"></a><br>
+            onMouseDown="ImageSwap('T1','img/menu-1_.jpg'')"><img src="img/menu/mainpage.jpg" name="T1" width="288" height="36" border="0"></a><br>
             <a href="/index2.php?id=2"
             onMouseOut="ImageSwap('T2','img/menu-2.jpg')"
             onMouseOver="ImageSwap('T2','img/menu-2_.jpg')"
-            onMouseDown="ImageSwap('T2','img/menu-2_.jpg'')"><img src="img/menu-2.jpg" name="T2" width="288" height="36" border="0"></a><br>
+            onMouseDown="ImageSwap('T2','img/menu-2_.jpg'')"><img src="img/menu/about.jpg" name="T2" width="288" height="36" border="0"></a><br>
             <a href="/index3.php?id=8"
             onMouseOut="ImageSwap('T3','img/menu-3.jpg')"
             onMouseOver="ImageSwap('T3','img/menu-3_.jpg')"
-            onMouseDown="ImageSwap('T3','img/menu-3_.jpg'')"><img src="img/menu-3.jpg" name="T3" width="288" height="36" border="0"></a><br>
+            onMouseDown="ImageSwap('T3','img/menu-3_.jpg'')"><img src="img/menu/comm.jpg" name="T3" width="288" height="36" border="0"></a><br>
             <a href="/index4.php?id=15"
             onMouseOut="ImageSwap('T4','img/menu-4.jpg')"
             onMouseOver="ImageSwap('T4','img/menu-4_.jpg')"
-            onMouseDown="ImageSwap('T4','img/menu-4_.jpg'')"><img src="img/menu-4.jpg" name="T4" width="288" height="36" border="0"></a><br>
-            <a href="/forma.php"
-            onMouseOut="ImageSwap('T5','img/menu-5.jpg')"
-            onMouseOver="ImageSwap('T5','img/menu-5_.jpg')"
-            onMouseDown="ImageSwap('T5','img/menu-5_.jpg'')"><img src="img/menu-5.jpg" name="T5" width="288" height="36" border="0"></a><br>
-            <a href="/index4.php?id=17"
-            onMouseOut="ImageSwap('T6','img/menu-6.jpg')"
-            onMouseOver="ImageSwap('T6','img/menu-6_.jpg')"
-            onMouseDown="ImageSwap('T6','img/menu-6_.jpg'')"><img src="img/menu-6.jpg" name="T6" width="288" height="36" border="0"></a><br>
-            <a href="/index4.php?id=17"
-            onMouseOut="ImageSwap('T6','img/menu-61.jpg')"
-            onMouseOver="ImageSwap('T6','img/menu-61_.jpg')"
-            onMouseDown="ImageSwap('T6','img/menu-61_.jpg'')"><img src="img/menu-61.jpg" name="T6" width="288" height="36" border="0"></a><br>
-            <img src="img/menu-7.jpg" width="288" height="36" border="0"></td>
+            onMouseDown="ImageSwap('T4','img/menu-4_.jpg'')"><img src="img/menu/cont.jpg" name="T4" width="288" height="36" border="0"></a><br>
+            <a href="/index4.php?id=15"
+            onMouseOut="ImageSwap('T4','img/menu-4.jpg')"
+            onMouseOver="ImageSwap('T4','img/menu-4_.jpg')"
+            onMouseDown="ImageSwap('T4','img/menu-4_.jpg'')"><img src="img/menu/blog.jpg" name="T4" width="288" height="36" border="0"></a><br>
+            <a href="/index4.php?id=15"
+            onMouseOut="ImageSwap('T4','img/menu-4.jpg')"
+            onMouseOver="ImageSwap('T4','img/menu-4_.jpg')"
+            onMouseDown="ImageSwap('T4','img/menu-4_.jpg'')"><img src="img/menu/photo.jpg" name="T4" width="288" height="36" border="0"></a><br>
+            <img src="img/menu/menu-7.jpg" width="288" height="36" border="0">
+            <br>
+            <br>
+            <br>
+            <img src="img/reklama.jpg" width="289" height="87" border="0">
+            <br>
+            <br>
+            <br>
+            <img src="img/reklama2.jpg" width="289" height="87" border="0">
+            <br>
+            <br>
+            <br>
+            <img src="img/news.jpg" width="289" height="87" border="0">
+            <img src="img/newsblock.jpg" width="289" height="285" border="0"></td>
 			<td width="673" align="left" valign="top">
 			<table border="0" width="100%" cellspacing="10" cellpadding="10">
 		<tr>
@@ -87,7 +96,8 @@ require("config.php");
                 <div>&nbsp;</div>
                 <div>Девушки получили категорию А и сели за руль боевого друга и товарища. Надо сказать, они управляются с ним не хуже мужчин...</div>
                 <div>&nbsp;</div>
-                <div>В экспоцентре &laquo;Гарден Сити&raquo;<a href="/index2.php?id=2"></a> ежегодно проводятся мотовыставки: мотосалон IMIS. Тех, кто интересуется мотоциклами всех моделей и назначений, порадуют обширной программой: от пресс-конференции 30 байкерских клубов страны и выставки новых тюнингованных мотоциклов до фристайл соревнований и стантрайдинга на мотоциклах спортивных. Посмотреть на это красочное и неординарное зрелище будет интересно даже тем, у кого нет собственного железного коня.</div></td>
+                <div>В экспоцентре &laquo;Гарден Сити&raquo;<a href="/index2.php?id=2"></a> ежегодно проводятся мотовыставки: мотосалон IMIS. Тех, кто интересуется мотоциклами всех моделей и назначений, порадуют обширной программой: от пресс-конференции 30 байкерских клубов страны и выставки новых тюнингованных мотоциклов до фристайл соревнований и стантрайдинга на мотоциклах спортивных. Посмотреть на это красочное и неординарное зрелище будет интересно даже тем, у кого нет собственного железного коня.</div>
+                <img src="gif/d17ad6e38237f1e1e681fb0475876ada.gif" alt="Анимация"> </td>
 		</tr>
 		<tr>
 		  <td align="left" valign="top">&nbsp;</td>
